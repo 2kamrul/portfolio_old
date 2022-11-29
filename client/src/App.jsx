@@ -1,9 +1,11 @@
-function App() {
+import NavBar from 'components/NavBar'
+
+const App = () => {
   return (
-    <p className='font-thin'>
-      Hello
-    </p>
-  );
+    <div>
+      <NavBar />
+    </div>
+  )
 }
 
 export default App
